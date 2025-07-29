@@ -32,6 +32,4 @@ for i in range(n):
 # Displaying all employee records
 print(" All Employee Records (OOP Version):")
 for emp in employee_list:
-    emp.display()
-
-
+     emp.display()
