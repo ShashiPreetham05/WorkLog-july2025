@@ -21,7 +21,7 @@ for i in range(n):
 # Display all employee records
 print("\n📋 All Employee Records:")
 for emp in employees:
-    print("\n🔹 Employee Record 🔹")
+    print("Employee Record ")
     print("Name       :", emp["name"])
     print("Employee ID:", emp["id"])
     print("Salary     : ₹", emp["salary"])
@@ -44,7 +44,7 @@ employees = [
 # Display all employee records
 print("📋 Developer's Employee Records:")
 for emp in employees:
-    print("\n🔹 Employee Record 🔹")
+    print(" Employee Record")
     print("Name       :", emp["name"])
     print("Employee ID:", emp["id"])
     print("Salary     : ₹", emp["salary"])
