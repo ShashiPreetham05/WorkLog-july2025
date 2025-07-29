@@ -19,7 +19,7 @@ for i in range(n):
     employees.append(emp)
 
 # Display all employee records
-print("\n📋 All Employee Records:")
+print(" All Employee Records:")
 for emp in employees:
     print("Employee Record ")
     print("Name       :", emp["name"])
@@ -42,7 +42,7 @@ employees = [
 ]
 
 # Display all employee records
-print("📋 Developer's Employee Records:")
+print(" Developer's Employee Records:")
 for emp in employees:
     print(" Employee Record")
     print("Name       :", emp["name"])
