@@ -24,7 +24,7 @@ for emp in employees:
     print("Employee Record ")
     print("Name       :", emp["name"])
     print("Employee ID:", emp["id"])
-    print("Salary     : ₹", emp["salary"])
+    print("Salary     : ", emp["salary"])
     print("Permanent? :", emp["permanent"])
 
     if emp["salary"] > 50000 and emp["permanent"]:
