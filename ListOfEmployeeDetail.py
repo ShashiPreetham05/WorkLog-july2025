@@ -31,3 +31,26 @@ for emp in employees:
         print(" Eligible for bonus")
     else:
         print(" Not eligible for bonus")
+
+print(".................................................")
+
+# Hardcoded employee list (developer input)
+employees = [
+    {"name": "Anjali", "id": 1001, "salary": 60000, "permanent": True},
+    {"name": "Rakesh", "id": 1002, "salary": 40000, "permanent": False},
+    {"name": "Priya",  "id": 1003, "salary": 52000, "permanent": True}
+]
+
+# Display all employee records
+print(" Developer's Employee Records:")
+for emp in employees:
+    print(" Employee Record")
+    print("Name       :", emp["name"])
+    print("Employee ID:", emp["id"])
+    print("Salary     : ", emp["salary"])
+    print("Permanent? :", emp["permanent"])
+
+    if emp["salary"] > 50000 and emp["permanent"]:
+        print(" Eligible for bonus")
+    else:
+        print(" Not eligible for bonus")
